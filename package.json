@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "styled-components": "rc"
   },
   "devDependencies": {
     "autoprefixer": "7.1.0",
@@ -82,7 +83,8 @@
   "eslintConfig": {
     "extends": "react-app",
     "rules": {
-      "jsx-a11y/alt-text": "off"
+      "jsx-a11y/alt-text": "off",
+      "react/jsx-pascal-case": "off"
     }
   }
 }

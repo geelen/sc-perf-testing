@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default () => (
+  console.log("RENDERED"),
   <div className="w-100 sans-serif">
     <header className="w-100 pa3 ph5-ns bg-white">
       <div className="db dt-ns mw9 center w-100">
