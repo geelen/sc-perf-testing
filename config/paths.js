@@ -47,6 +47,7 @@ module.exports = {
   appIndexJs: [
     ['tachyons', resolveApp('src/tachyons/index.js')],
     ['sc-simple', resolveApp('src/sc-simple/index.js')],
+    ['sc-vars', resolveApp('src/sc-vars/index.js')],
   ],
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
